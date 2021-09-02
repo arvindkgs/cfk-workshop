@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: datagen-quotes
-          image: docker.io/rohit2b/wordcount
+          image: docker.io/arvindkgs/wordcount
           ports:
             - containerPort: 8080
           env:
